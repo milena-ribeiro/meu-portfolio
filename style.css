@@ -56,12 +56,9 @@ textarea {
     display: table;
 }
 
-/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
 .form:after {
     clear: both;
 }
-
-/* Elementos de classe "campo" */
 .campo {
     margin-bottom: 1em;
 }
@@ -72,11 +69,7 @@ h1 {
 p {
     text-align: center;
 }
-nav {
-    background: #b3404a;
-    height: 80px;
-    width: 100%;
-}
+
 label.social {
     display: inline-block;
     line-height: 50px;
@@ -164,9 +157,7 @@ nav ul li a {
     background:#aa96e9;
     padding: 6px 30px;
     margin: 50px;
-    
-    color: #fff;
-    
+    color: #fff;  
     
 }
 
@@ -178,7 +169,6 @@ nav ul li a {
     
     width: 100px;
     margin-left: -5px;
-
     
 }
 .card-body {
@@ -199,13 +189,9 @@ nav ul li a {
     justify-content: center;
     align-items: center;
 }
-
-
 .gren {
     border-left: 3px solid #3bb54a;
 }
-
-
 .formacao {
     padding: 2em 4em;
     margin: 5%;
@@ -242,22 +228,12 @@ nav ul li a {
     width: auto;
 }
 
-/*
-#contact {
-    background: #d3dbd9;
-    padding-top: 2rem;
-    padding-bottom: 3.2rem;
-}
-.contato {
-    text-align: center;
-}
-*/
+
 footer {
     text-align: center;
     background: linear-gradient(90deg, rgb(169, 71, 215), #8b0aa5);
     align-items: center;
     flex-direction: column;
-    /*background: pink; */
     margin: 0.1rem 0;
     padding: 50px;
     width: 100%;
@@ -265,17 +241,14 @@ footer {
 .containers{
     width: 50%;
     height: 70vh;
-    
     text-align: center;
     background-color: rgba(229, 231, 238, 0.905);
     color: #59429d;
-
     position: absolute;
-    top: 20%; /* posiciona na metade da tela */
-    margin-top: -25px; /* e retrocede metade da altura */
-    left: 35%; /* posiciona na metade da tela */
-    margin-left: -200px; /* e retrocede metade da largura */
-
+    top: 20%; 
+    margin-top: -25px; 
+    left: 35%; 
+    margin-left: -200px; 
     margin-bottom: 20%;
 
 }
@@ -301,10 +274,11 @@ footer img {
 }
 
 .form textarea {
-    height: 131px;
+    height: 130px;
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
     line-height: 1.7rem;
+    
 }
 
 .campo label {
@@ -325,7 +299,7 @@ fieldset.form .campo {
     padding: 0.2em;
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    display: block;
+    
 }
 .campo input:focus,
 .campo textarea:focus {
@@ -336,4 +310,31 @@ fieldset.form .campo {
     justify-content: center;
     align-items: center;
     padding-bottom: 2rem;
+}
+.botao {
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position:relative;
+    top: 90%;
+    left: 10%;
+    margin-right: -30%;
+    transform: translate(-50%, -50%)
+}
+
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+
+.botao, select{
+    cursor: pointer;
 }
