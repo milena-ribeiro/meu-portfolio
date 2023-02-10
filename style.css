@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    border: 0;
+}
+body {
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    justify-content: center;
+    align-items: center;
+}
+.navs{
+    width: 100%;
+    float: right;
+    background: linear-gradient(90deg, rgb(169, 71, 215), #8b0aa5);
+    padding: 10px 8%;
+}
+.navs li{
+    float: left;
+}
+.navs li a{
+    color: #fff;
+    margin-right: 40px;
+
+}
+.navs li a:hover{
+    color: #59429d;
+}
+.menu{
+    float: left;
+    padding: 10px 8%;
+
+}
+.menu a {
+    color: #fff;
+    float: left;
+    margin-left: 30px;
+}
+.button:hover{
+
+    color: #59429d;
+}
+input,
+textarea {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+.form:before,
+.grupo:after {
+    display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.form:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+nav {
+    background: #b3404a;
+    height: 80px;
+    width: 100%;
+}
+label.social {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: #080101;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.hard-skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao-sobre{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #59429d;
+}
+.sobre {
+    padding: 2em 4em;
+    margin: 6%;
+    background-color: #d3dbd9;
+    text-align: center;
+}
+.card-green {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    border-left: 3px solid #3bb54a;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 10px;
+    width: 150px;
+    height: 160px;
+   /* transition: all 0.3s ease-out;*/
+}
+.botao-card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    color: indigo;
+}
+.botao-sobre:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    color: indigo;
+}
+
+.botao-card{
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    background:#aa96e9;
+    padding: 6px 30px;
+    margin: 50px;
+    
+    color: #fff;
+    
+    
+}
+
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+.card-icon {
+    
+    width: 100px;
+    margin-left: -5px;
+
+    
+}
+.card-body {
+    align-items: center;
+    width: 100px;
+}
+
+.image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+.green {
+    border-left: 3px solid #3bb54a;
+}
+.rowf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gren {
+    border-left: 3px solid #3bb54a;
+}
+
+
+.formacao {
+    padding: 2em 4em;
+    margin: 5%;
+    background-color: #d3dbd9;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1180px) {
+}
+#about {
+    background: #f0f8ff;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+}
+.text {
+    text-align: center;
+    align-items: center;
+}
+.skill-camp {
+    justify-content: center;
+}
+.skill-camp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.skill-box {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    transition: all 0.5s;
+    margin-right: 4rem;
+    width: auto;
+}
+
+/*
+#contact {
+    background: #d3dbd9;
+    padding-top: 2rem;
+    padding-bottom: 3.2rem;
+}
+.contato {
+    text-align: center;
+}
+*/
+footer {
+    text-align: center;
+    background: linear-gradient(90deg, rgb(169, 71, 215), #8b0aa5);
+    align-items: center;
+    flex-direction: column;
+    /*background: pink; */
+    margin: 0.1rem 0;
+    padding: 50px;
+    width: 100%;
+}
+.containers{
+    width: 50%;
+    height: 70vh;
+    
+    text-align: center;
+    background-color: rgba(229, 231, 238, 0.905);
+    color: #59429d;
+
+    position: absolute;
+    top: 20%; /* posiciona na metade da tela */
+    margin-top: -25px; /* e retrocede metade da altura */
+    left: 35%; /* posiciona na metade da tela */
+    margin-left: -200px; /* e retrocede metade da largura */
+
+    margin-bottom: 20%;
+
+}
+footer img {
+    width: 150px;
+    height: 150px;
+}
+.copyright {
+    color: aliceblue;
+    font-size: 15px;
+    margin: 50px 0 0;
+}
+.contato {
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem {
+    flex-direction: row;
+    margin: 15px 25px;
+    padding: 18px 30px;
+    left: 20px;
+}
+
+.form textarea {
+    height: 131px;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    line-height: 1.7rem;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+
+
+fieldset.form .campo {
+    float: left;
+    margin-right: 6em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+.campo input:focus,
+.campo textarea:focus {
+    background: #e0e0f8;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}

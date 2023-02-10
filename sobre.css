@@ -1,0 +1,29 @@
+
+.paragrafos {
+
+    background-color: rgba(229, 231, 238, 0.905);
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+}
+.container {
+    width: 50%;
+    height: 85vh;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgba(229, 231, 238, 0.905);
+    color: #59429d;
+
+    position: absolute;
+    top: 20%; /* posiciona na metade da tela */
+    margin-top: -25px; /* e retrocede metade da altura */
+    left: 35%; /* posiciona na metade da tela */
+    margin-left: -200px; /* e retrocede metade da largura */
+
+    margin-bottom: 20%;
+    
+}
+.container p{
+    font: 1em sans-serif;
+}
+
